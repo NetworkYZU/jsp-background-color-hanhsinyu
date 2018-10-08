@@ -9,11 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta http-equiv="refresh" content="1" >
+        <meta http-equiv="refresh" content="0.5" >
         <title>JSP Page</title>
     </head>
     <%
-        String [] colors=new String[]{"red", "green", "yello", "blue", "purple", "black"};
+        String [] colors=new String[]{"moss green bracken green", "green", "yellow", "blue", "crystal green", "apple green"};
         int index=((int)(Math.random()*1000)%6);
         String color=colors[index];
     %>
