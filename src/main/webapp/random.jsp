@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <%
-        String [] colors=new String[]{"salmon", "green", "orange", "blue", "purple", "black"};
+        String [] colors=new String[]{"salmon", "green", "orange", "blue", "purple", "crystal green"};
         int index=((int)(Math.random()*10000)%6);
         String color=colors[index];
     %>
